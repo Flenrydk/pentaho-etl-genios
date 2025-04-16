@@ -1479,7 +1479,7 @@ var outlier_diferencia_lts = (abs_diferencia_odometro_despacho > 1) ? "True" : "
 var today = new Date();
 
 // Restar 7 días
-today.setDate(today.getDate() - 2);
+today.setDate(today.getDate() - 12);
 
 // Formatear la fecha en el formato YYYY-MM-DD
 var year = today.getFullYear();
